@@ -1,0 +1,82 @@
+/* * {
+    border: solid red 2px;
+} */
+
+@font-face {
+    font-family: Monserrat;
+    src: url(sources/Montserrat.ttf);
+}
+body{
+    background-image: url(images/bg.png);
+    font-family: Monserrat;
+    color: white;
+    margin: 40px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 585px;
+}
+
+.flexbox img{
+    margin-right: 40px;
+    width: 100px;
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.flexbox1 h2 {
+    padding: 20px;
+    font-size: 30px;
+    text-shadow: 1px 2px black;
+}
+
+.flexbox1 h3 {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.6s;
+    opacity: 0.5;
+}
+
+.flexbox1 h3:hover {
+    font-size: 30px;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.flexbox1 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 1px 2px black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+
+.phrase {
+    padding-left: 0px;
+    margin-left: -200px;
+    font-size: 50px;
+    margin-bottom: 400px;
+}
+
