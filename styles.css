@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 585px;
+    column-gap: 500px;
 }
 
 .flexbox img{
@@ -80,3 +80,96 @@ body{
     margin-bottom: 400px;
 }
 
+.input-card, .input-card form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    column-gap: 200px;
+}
+
+.input-card .img-card input{
+    display: none;
+}
+
+.input-card label img {
+    margin-left: 20px;
+}
+
+.img-card {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 250px;
+    padding-top: 230px;
+    border-radius: 50px;
+}
+
+.txt-card textarea {
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0px;
+    outline: 0px;
+    height: 510px;
+    width: 550px;
+    border-radius: 50px;
+}
+
+.txt-card ::placeholder{
+    font-family: Montserrat;
+    padding-top: 40%;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    margin-right: 219px;
+    margin-top: 70px;
+}
+
+.button input {
+    font-family: Montserrat;
+    border: 0;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(0, 255, 34);
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight:bolder;
+    transition: 0.6s;
+}
+
+.button input:hover {
+    font-family: Montserrat;
+    border: 0;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(0, 255, 34);
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+.about-title{
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 2px black;
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+
+.about-content {
+    margin-left: 400px;
+    margin-right: 400px;
+    text-indent: 50px;
+    font-size: 19px;
+    font-family: Montserrat;
+}
